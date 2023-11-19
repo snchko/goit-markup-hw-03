@@ -5,6 +5,93 @@
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.menu {
+  gap: 40px;
+}
+
+.menu-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.address-list {
+  gap: 40px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.card-content {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+.team-list {
+  display: flex;
+  column-gap: 24px;
+}
+.concept-list {
+  gap: 24px;
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -19,6 +106,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   word-wrap: break-word;
+  margin-right: 76px;
 }
 .logo-name {
   color: #2e2f42;
@@ -48,6 +136,9 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .address {
   font-style: normal;
@@ -57,10 +148,13 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-
+  width: 496px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .button-first {
   color: #ffffff;
@@ -70,6 +164,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 .advan-name {
   color: #2e2f42;
@@ -82,10 +181,11 @@ body {
 
 .advan-descrp {
   font-size: 16px;
-
+  width: 264px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-top: 8px;
 }
 .section-name {
   color: #2e2f42;
@@ -96,18 +196,25 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
 }
+.portfolio-item {
+  margin-top: 48px;
+}
+.portfolio-name {
+  margin-bottom: 24px;
+}
 
 .team-member-name {
   color: #2e2f42;
   font-size: 20px;
-
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+
+  text-align: center;
 }
 .member-job {
   font-size: 16px;
-
+  text-align: center;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -129,6 +236,8 @@ body {
 }
 .main-footer {
   background-color: #2e2f42;
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   color: #4d5ae5;
@@ -159,6 +268,8 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  width: 264px;
+  margin-top: 17.5px;
 }
 
 .button,
