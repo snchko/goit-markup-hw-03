@@ -84,10 +84,18 @@ img {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
+}
+.conteiner-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
+}
+.team {
+  border-radius: 0px 0px 4px 4px;
 }
 .concept-list {
   gap: 24px;
@@ -148,13 +156,16 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
+}
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .button-first {
   color: #ffffff;
@@ -164,7 +175,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
-  display: flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
@@ -173,7 +187,7 @@ body {
 .advan-name {
   color: #2e2f42;
   font-size: 20px;
-
+  margin-bottom: 8px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -195,12 +209,16 @@ body {
   text-transform: capitalize;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  margin-bottom: 72px;
 }
 .portfolio-item {
   margin-top: 48px;
+  gap: 24px;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 48px) / 3);
 }
 .portfolio-name {
-  margin-bottom: 24px;
+  margin-bottom: 72px;
 }
 
 .team-member-name {
@@ -222,7 +240,7 @@ body {
 .project-name {
   color: #2e2f42;
   font-size: 20px;
-
+  margin-bottom: 8px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
@@ -236,7 +254,7 @@ body {
 }
 .main-footer {
   background-color: #2e2f42;
-  padding-top: 101.5px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-logo {
@@ -247,6 +265,8 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.54px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .button-first {
   color: #ffffff;
@@ -295,6 +315,7 @@ body {
 }
 .section-services {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .section-team {
   background-color: #f4f4fd;
