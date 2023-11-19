@@ -215,7 +215,7 @@ body {
   margin-top: 48px;
   gap: 24px;
   border-radius: 0px 0px 4px 4px;
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .portfolio-name {
   margin-bottom: 72px;
@@ -227,7 +227,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-
+  margin-bottom: 8px;
   text-align: center;
 }
 .member-job {
